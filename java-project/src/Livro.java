@@ -37,12 +37,7 @@ public class Livro {
     }
 
     public void imprimirDados(){
-
-        System.out.println("Informações do Livro");
-        System.out.println("Nome:              " + this.getNome());
-        System.out.println("Preço:             " + this.getPreço());
-        System.out.println("Numero de páginas: " + this.getNumeroPaginas());
-        System.out.println("---------------------------");
-        this.autor.imprimirDados();
+    	System.out.println("Nome: " + this.getNome()+"\nPaginas: " + this.getNumeroPaginas() + "\nPreço: " + this.getPreço());
+	this.autor.imprimirDados();
     }
 }
