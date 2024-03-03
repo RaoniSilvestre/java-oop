@@ -1,7 +1,7 @@
 package dia02;
 
-public class Stringsx {
-  public static void palindromo() {
+public class VerificarPalindromo {
+  public static void isPalindromo() {
     String palavra = "aaaaaaaaa";
 
     int j = palavra.length() - 1;
@@ -14,13 +14,11 @@ public class Stringsx {
       } else {
         k = 1;
       }
-
     }
     if (k == 0) {
       System.out.println("Palindrome!!");
     } else {
       System.out.println("Not a palindrome!!");
     }
-
   }
 }
