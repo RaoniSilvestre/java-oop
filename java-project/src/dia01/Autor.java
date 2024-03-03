@@ -1,3 +1,5 @@
+package dia01;
+
 public class Autor {
     String nome;
     String genero;

@@ -1,3 +1,4 @@
+package dia01;
 public class Cliente {
     String nome;
     String email;
